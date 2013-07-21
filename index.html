@@ -39,19 +39,12 @@
       }
 
 
+      /* Video pitch*/
+      .pitch {
+        padding: 2.5% 0%;
+      }
       .video, .thermometer, .order, .social {
-        border: 1px dotted;
         text-align: center;
-      }
-      .video {
-        /* Internal borders have 1px width, thus need to add 4 x 1px to 120px */
-        height: 124px;
-        line-height: 124px;
-      }
-      .thermometer, .order, .social {
-        /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
-        height: 40px;
-        line-height: 40px;
       }
       div.row {
         border: 1px solid;
@@ -103,11 +96,11 @@
           <p class="lead">One sentence description.</p>
         </div>
       </div>
+      <div class="row-fluid pitch">
+        <div class="span5 offset1 video">
+          <img class="img-polaroid" src="http://placehold.it/480x300">
+        </div
 
-      <div class="row pitch">
-        <div class="span6 video">
-          Video
-        </div>
         <div class="span6">
           <div class="thermometer">
             Thermometer
